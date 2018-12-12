@@ -33,7 +33,7 @@ ssbClient(function (err, sbot) {
 
   // stream all messages in all feeds, ordered by publish time
   pull(
-    sbot.createFeedStream(),
+    sbot.createFeedStream({ private: true }),
     pull.drain((msg) => {
       // on each
       messagesConsumed = messagesConsumed + 1
