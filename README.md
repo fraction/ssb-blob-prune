@@ -40,4 +40,4 @@ PRs accepted.
 
 ## License
 
-MIT © 2018 Fraction LLC
+ISC © 2018 Fraction LLC
