@@ -9,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "debug": "^4.1.0",
     "deepdash": "^1.5.5",
-    "multiblob": "^1.13.2"
+    "lodash": "^4.17.11",
+    "multiblob": "^1.13.2",
+    "pull-stream": "^3.6.9",
+    "ssb-client": "^4.6.0",
+    "ssb-ref": "^2.13.9"
   },
   "bin": {
     "ssb-blob-prune": "./index.js"
