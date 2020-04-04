@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-npm -g install ssb-prune-blobs
+npm -g install ssb-blob-prune
 ```
 
 ## Usage
